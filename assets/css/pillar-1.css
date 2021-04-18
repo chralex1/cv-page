@@ -847,12 +847,6 @@ pre code {
   margin-left: 91.6666666667%;
 }
 
-@media (max-width: 576px) {
-  .resume-header .picture {
-    height: 220px;
-  }
-}
-
 @media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
@@ -9703,6 +9697,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-header .picture {
   width: 252px;
+  height: 220px;
 }
 
 .resume-header .name {
@@ -9864,6 +9859,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   }
   .resume-header .picture {
     width: 120px;
+    height: 120px;
     border-radius: 4px;
   }
 }
